@@ -1,0 +1,247 @@
+body {
+
+	font-family: "Roboto";
+	margin : 0;
+}
+
+header {
+
+	height: 600px ;
+}
+
+video {
+
+	position: absolute;
+	bottom: 10px;
+	right: 0px;
+	min-width: 100%;
+	min-height: 100%;
+	width: auto;
+	height: auto;
+	z-index: -1000;
+	overflow: hidden;
+
+
+}
+
+img {
+
+	width: 100px;
+	margin-top: 15px;
+	margin-left: 15px;
+}
+
+#logo {
+
+	display: inline-block;
+}
+
+#droite {
+
+	display: inline-block;
+	float: right;
+}
+
+ul {
+
+	width: 470px;
+	height: 40px;
+	display: flex;
+	list-style-type: none;
+	text-decoration: none;
+	justify-content: space-around;
+
+}
+
+a {
+
+	color: white;
+	text-decoration: none;
+	font-weight: 700;
+}
+
+.bordure {
+
+	border: 1px solid white;
+	padding: 7px 15px;
+
+}
+	
+.bordure:hover {
+
+	opacity: 0.35;
+}
+
+h1 {
+
+	font-size: 3.8em;
+	font-weight: 900;
+	text-align: center;
+	text-transform: uppercase;
+	margin-top: 100px;
+	color: white;
+	margin-bottom: 0;
+}
+
+#first {
+
+	text-align: center;
+	font-weight: 700;
+	margin-top: 5px;
+	margin-bottom: 30px;
+	color: white;
+}
+
+#second {
+
+	text-align: center;
+}
+ 
+#emploi {
+
+	background-color: rgba(255,255,255,0.35);
+	text-align: center;
+	padding: 10px 25px;;
+	color : white;
+}
+
+#emploi:hover {
+
+	opacity: 0.5;
+	background-color: black;
+}
+
+#recherche {
+
+	background-color: rgba(0,0,0,0.5);
+	height: 100px;
+}
+
+#search {
+
+	width: 835px;
+	height: 45px;
+	padding-left: 10px;
+
+
+
+}
+
+input[type="submit"] {
+
+	width: 140px;
+	height: 45px;
+	background-color: #FF5A5F;
+	color: white;
+	font-weight: 700;
+	border: none;
+}
+
+form {
+
+	text-align: center;
+	padding-top: 27.5px;
+	margin-top: 202px;
+}
+
+main {
+
+	background-color: #EDEFED;
+	height: 600px;
+	
+}
+
+h2 {
+
+	padding-top: 40px;
+	font-size: 1.8em;
+	text-align: center;
+	color: #565A5C;
+	margin: 0;
+}
+
+main > p {
+
+	color: #565A5C;
+	text-align: center;
+}
+
+section > a {
+
+	font-size: 1.8em;
+	display: flex;
+	text-decoration: none;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+
+}
+
+section {
+
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	flex-direction: row;
+	margin: 0;
+}
+
+#lille {
+
+	background-image: url("lille.jpg");
+	background-size: cover;
+	width: 300px;
+	height: 300px;
+	margin: 20px;
+
+}
+
+#bruxelles {
+
+	background-image: url("bruxelles.jpg");
+	background-size: cover;
+	width: 300px;
+	height: 300px;
+	margin:20px;
+
+}
+
+#londres {
+
+	background-image: url("londres.jpg");
+	background-size: cover;
+	width: 300px;
+	height: 300px;
+	margin: 20px;
+}
+
+#destination {
+
+	background-color: white;
+	color : #565A5C;
+	width: 300px;
+	border : 1px solid black;
+	padding : 10px 30px;
+
+}
+
+#third {
+
+	margin-top: 40px;
+	margin-bottom: 50px;
+}
+
+footer {
+
+	background-color: black;
+	color: white;
+	height: 100px;
+	display: flex;
+	flex-direction: row;
+	justify-content:center;
+	align-items: center;
+	text-align: center;
+}
+
+
+
